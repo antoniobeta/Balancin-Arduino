@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.12"
+    ComputedModelVersion    "1.13"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -100,7 +100,7 @@ Model {
 	LoadSaveID		"0"
 	Extents			[643.0, 594.0]
 	ZoomFactor		[0.6]
-	Offset			[-76.968505752436116, -146.66082992490661]
+	Offset			[-76.9685057524361, -146.66082992490658]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -134,9 +134,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "beta3"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jan 28 15:35:09 2019"
-  RTWModifiedTimeStamp	  470590458
-  ModelVersionFormat	  "1.%<AutoIncrement:12>"
+  LastModifiedDate	  "Wed Jan 30 10:57:57 2019"
+  RTWModifiedTimeStamp	  470746641
+  ModelVersionFormat	  "1.%<AutoIncrement:13>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1374,8 +1374,8 @@ Model {
       SourceProductName	      "Simulink"
       SourceProductBaseCode   "SL"
       ContentPreviewEnabled   off
-      gain		      "139.500"
-      low		      "0"
+      gain		      "145.550"
+      low		      "120"
       high		      "155"
     }
     Block {
@@ -1516,7 +1516,7 @@ Model {
       "1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChan"
       "nelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','"
       "Plot Navigation',true,'OnceAtStop',false),extmgr.Configuration('Tools','Measurements',true,'Version','2018b')),'"
-      "Version','2018b','Location',[685 84 1366 766],'VisibleAtModelOpen','on')"
+      "Version','2018b','Location',[685 84 1366 726])"
       NumInputPorts	      "1"
       Floating		      off
     }
